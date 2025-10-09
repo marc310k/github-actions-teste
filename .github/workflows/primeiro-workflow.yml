@@ -1,0 +1,9 @@
+name: Primeiro Workflow
+on: [push]
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Exibir mensagem
+        run: echo "Olá, Marcelo! 🚀 Seu primeiro workflow está funcionando!"
